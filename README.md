@@ -27,32 +27,7 @@ The FastAPI backend loads the image, applies necessary transformations, and perf
 
 The prediction is returned and displayed on the frontend.
 
-📦 Dependencies
-Install required packages:
 
-bash
-Copy
-Edit
-pip install fastapi uvicorn jinja2 torch torchvision scikit-learn numpy pillow
-🛠️ Running the App
-Navigate to project root:
-
-bash
-Copy
-Edit
-cd path/to/project_root
-Start the FastAPI server:
-
-bash
-Copy
-Edit
-uvicorn main:app --reload
-Visit in browser:
-
-cpp
-Copy
-Edit
-http://127.0.0.1:8000
 📷 Sample Prediction Flow
 Upload a leaf image via the UI.
 
